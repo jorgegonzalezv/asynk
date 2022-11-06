@@ -19,7 +19,7 @@ while True:
     try:
         while True:
             data = connection.recv(16)
-            print("recv: ", data)
+            print("recv: ", str(data))
             if not data:
                 break
     finally:
